@@ -1,7 +1,7 @@
 # IPC-distributed-system
 # Projekt IPC Server & Klient
 
-Ky projekt implementon një server dhe klient për komunikim nëpërmjet mekanizmave të komunikimit IPC (Inter-Process Communication) në Linux. Serveri është në gjendje të pranojë kërkesa nga klientët e shumtë njëkohësisht duke përdorur radhë, threads dhe sinkronizim. Klientët mund të lidhen me serverin, të dërgojnë kërkesa dhe të marrin përgjigjen e kërkesës së tyre.
+Ky projekt implementon një server dhe klient për komunikim nëpërmjet mekanizmave të komunikimit IPC (Inter-Process Communication) në Linux. Serveri është në gjendje të pranojë kërkesa nga klientët e shumtë njëkohësisht duke përdorur message passing , threads dhe sinkronizim. Klientët mund të lidhen me serverin, të dërgojnë kërkesa dhe të marrin përgjigjen e kërkesës së tyre.
 
 ## Specifikimet e Projektit
 
