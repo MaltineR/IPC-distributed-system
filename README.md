@@ -1,5 +1,5 @@
-# IPC-distributed-system
-# Projekt IPC Server & Klient
+
+# Distributed System using Inter Process Comunications (IPC), Threads, and Synchronization
 
 Ky projekt implementon një server dhe klient për komunikim nëpërmjet mekanizmave të komunikimit IPC (Inter-Process Communication) në Ubuntu. Serveri është në gjendje të pranojë kërkesa nga klientët e shumtë njëkohësisht duke përdorur mekanizma te IPC , threads dhe sinkronizim. Klientët mund të lidhen me serverin, të dërgojnë kërkesa dhe të marrin përgjigjen e kërkesës së tyre.
 
@@ -17,9 +17,9 @@ Ky projekt implementon një server dhe klient për komunikim nëpërmjet mekaniz
 - `server.c`: Kod i serverit që pranon dhe përpunon kërkesat nga klientët.
 - `client.c`: Kod i klientit që lidhet me serverin dhe dërgon kërkesa.
 
-## Komplajimi dhe Ekzekutimi
+##  Ekzekutimi
 
-1. Komplajto serverin dhe klientin duke përdorur komandën:
+1. Ekzekuto serverin dhe klientin duke përdorur komandën:
 
     ```
     gcc -o server server.c -pthread 
