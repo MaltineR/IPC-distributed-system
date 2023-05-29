@@ -17,9 +17,9 @@ Ky projekt implementon një server dhe klient për komunikim nëpërmjet mekaniz
 - `server.c`: Kod i serverit që pranon dhe përpunon kërkesat nga klientët.
 - `client.c`: Kod i klientit që lidhet me serverin dhe dërgon kërkesa.
 
-##  Ekzekutimi
+## Kompajlimi dhe Ekzekutimi
 
-1. Ekzekuto serverin dhe klientin duke përdorur komandën:
+1. Kompajlo serverin dhe klientin duke përdorur komandën:
 
     ```
     gcc -o server server.c -pthread 
