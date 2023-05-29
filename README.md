@@ -58,8 +58,8 @@ Ky projekt implementon një server dhe klient për komunikim nëpërmjet mekaniz
 
 ## Autorët
 
+- Alketa Bala
 - Maltine Rama 
-- Alketa Balaj 
 - Jetlira Hoxha 
 - Ylleza Luma
 
